@@ -1,0 +1,14 @@
+<?php
+# Copyright (c) MantisBT Team - mantisbt-dev@lists.sourceforge.net
+# Licensed under the MIT license
+
+$s_plugin_SimpleSAMLphpAuth_title = 'AuthSimpleSAMLphp';
+$s_plugin_SimpleSAMLphpAuth_description = 'A plugin for authentication using SimpleSAMLphp: https://simplesamlphp.org.';
+
+$s_plugin_SimpleSAMLphpAuth_update = 'Update';
+
+$s_plugin_SimpleSAMLphpAuth_configuration = 'Configuration';
+$s_plugin_SimpleSAMLphpAuth_config_autoloader_path = 'SimpleSAMLphp autoloader path';
+$s_plugin_SimpleSAMLphpAuth_config_SP_name = 'SimpleSAMLphp SP name';
+$s_plugin_SimpleSAMLphpAuth_config_auth_attributes_username = 'Username attribute';
+$s_plugin_SimpleSAMLphpAuth_config_auth_attributes_email = 'Email attribute';
