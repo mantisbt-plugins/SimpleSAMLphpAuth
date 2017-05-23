@@ -1,5 +1,4 @@
 <?php
-# Copyright (c) MantisBT Team - mantisbt-dev@lists.sourceforge.net
 # Licensed under the MIT license
 
 /**
@@ -72,12 +71,6 @@ class SimpleSAMLphpAuthPlugin extends MantisPlugin  {
 			return null;
 		}
 		*/
-
-		# Have Administrator use default login flow
-		if( $t_user_id == 1 ) {
-			return null;
-		}
-
 
 		# for everybody else use the custom authentication
 		$t_flags = new AuthFlags();
